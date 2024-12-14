@@ -28,7 +28,7 @@ class Duplicate_elements{
         //Hashset length - time complexity = O(n)
         return Arrays.stream(arr).distinct().count() < arr.length;
 
-        return false;
+        // return false;
 
     }
     public static void main(String[] args) {
